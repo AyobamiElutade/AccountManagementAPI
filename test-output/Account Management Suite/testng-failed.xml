@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Account Management Suite]">
+  <test name="Account Management Tests(failed)">
+    <classes>
+      <class name="GetAccountByCustomerName.Status200Validation">
+        <methods>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- GetAccountByCustomerName.Status200Validation -->
+    </classes>
+  </test> <!-- Account Management Tests(failed) -->
+</suite> <!-- Failed suite [Account Management Suite] -->

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="25" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Account Management Suite" duration-ms="40126" started-at="2019-05-14T13:32:57Z" finished-at="2019-05-14T13:33:37Z">
+    <groups>
+    </groups>
+    <test name="Account Management Tests" duration-ms="40126" started-at="2019-05-14T13:32:57Z" finished-at="2019-05-14T13:33:37Z">
+      <class name="GetCustomerAccountByPhoneNumber.Status404Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetCustomerAccountByPhoneNumber.Status404Validation@239963d8]" name="Test" duration-ms="1394" started-at="2019-05-14T14:33:28Z" finished-at="2019-05-14T14:33:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetCustomerAccountByPhoneNumber.Status404Validation -->
+      <class name="GetAccountByCustomerName.Status404Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetAccountByCustomerName.Status404Validation@31ef45e3]" name="Test" duration-ms="1448" started-at="2019-05-14T14:33:10Z" finished-at="2019-05-14T14:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetAccountByCustomerName.Status404Validation -->
+      <class name="GetAccountCustomerNameLookup.Status404Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetAccountCustomerNameLookup.Status404Validation@4883b407]" name="Test" duration-ms="1674" started-at="2019-05-14T14:33:17Z" finished-at="2019-05-14T14:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetAccountCustomerNameLookup.Status404Validation -->
+      <class name="GetCustomerImage.Status200Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetCustomerImage.Status200Validation@73ad2d6]" name="Test" duration-ms="1503" started-at="2019-05-14T14:33:32Z" finished-at="2019-05-14T14:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetCustomerImage.Status200Validation -->
+      <class name="GetCustomerImage.Status400Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetCustomerImage.Status400Validation@464bee09]" name="Test" duration-ms="1507" started-at="2019-05-14T14:33:34Z" finished-at="2019-05-14T14:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetCustomerImage.Status400Validation -->
+      <class name="GetCustomerAccountByCifID.Status404Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetCustomerAccountByCifID.Status404Validation@f6c48ac]" name="Test" duration-ms="1530" started-at="2019-05-14T14:33:25Z" finished-at="2019-05-14T14:33:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetCustomerAccountByCifID.Status404Validation -->
+      <class name="GetCustomerAccountBalance.Status404Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetCustomerAccountBalance.Status404Validation@4cf777e8]" name="Test" duration-ms="1425" started-at="2019-05-14T14:33:22Z" finished-at="2019-05-14T14:33:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetCustomerAccountBalance.Status404Validation -->
+      <class name="GetCustomerAccountBalance.Status200Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetCustomerAccountBalance.Status200Validation@3c0ecd4b]" name="Test" duration-ms="1459" started-at="2019-05-14T14:33:19Z" finished-at="2019-05-14T14:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetCustomerAccountBalance.Status200Validation -->
+      <class name="GetCustomerAccountStatement.Status404Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetCustomerAccountStatement.Status404Validation@271053e1]" name="Test" duration-ms="1380" started-at="2019-05-14T14:33:31Z" finished-at="2019-05-14T14:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetCustomerAccountStatement.Status404Validation -->
+      <class name="GetCustomerAccountByPhoneNumber.Status200Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetCustomerAccountByPhoneNumber.Status200Validation@2f686d1f]" name="Test" duration-ms="1435" started-at="2019-05-14T14:33:27Z" finished-at="2019-05-14T14:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetCustomerAccountByPhoneNumber.Status200Validation -->
+      <class name="GetAccountByBvn.Status404Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetAccountByBvn.Status404Validation@13deb50e]" name="Test" duration-ms="1560" started-at="2019-05-14T14:33:07Z" finished-at="2019-05-14T14:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetAccountByBvn.Status404Validation -->
+      <class name="GetCustomerAccountBalance.Status400Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetCustomerAccountBalance.Status400Validation@59ec2012]" name="Test" duration-ms="1452" started-at="2019-05-14T14:33:21Z" finished-at="2019-05-14T14:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetCustomerAccountBalance.Status400Validation -->
+      <class name="GetAccountByAccountNumber.Status404Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetAccountByAccountNumber.Status404Validation@3abbfa04]" name="Test" duration-ms="4278" started-at="2019-05-14T14:32:57Z" finished-at="2019-05-14T14:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetAccountByAccountNumber.Status404Validation -->
+      <class name="GetAccountByAccountNumber.Status400Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetAccountByAccountNumber.Status400Validation@7085bdee]" name="Test" duration-ms="1650" started-at="2019-05-14T14:33:03Z" finished-at="2019-05-14T14:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetAccountByAccountNumber.Status400Validation -->
+      <class name="GetAccountByEmail.Status404Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetAccountByEmail.Status404Validation@14bf9759]" name="Test" duration-ms="1367" started-at="2019-05-14T14:33:13Z" finished-at="2019-05-14T14:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetAccountByEmail.Status404Validation -->
+      <class name="GetAccountByBvn.Status200Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetAccountByBvn.Status200Validation@57fffcd7]" name="Test" duration-ms="1432" started-at="2019-05-14T14:33:04Z" finished-at="2019-05-14T14:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetAccountByBvn.Status200Validation -->
+      <class name="GetCustomerImage.Status404Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetCustomerImage.Status404Validation@589838eb]" name="Test" duration-ms="1444" started-at="2019-05-14T14:33:35Z" finished-at="2019-05-14T14:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetCustomerImage.Status404Validation -->
+      <class name="GetCustomerAccountByCifID.Status200Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetCustomerAccountByCifID.Status200Validation@3fee9989]" name="Test" duration-ms="1544" started-at="2019-05-14T14:33:24Z" finished-at="2019-05-14T14:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetCustomerAccountByCifID.Status200Validation -->
+      <class name="GetAccountByBvn.Status400Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetAccountByBvn.Status400Validation@42dafa95]" name="Test" duration-ms="1432" started-at="2019-05-14T14:33:06Z" finished-at="2019-05-14T14:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetAccountByBvn.Status400Validation -->
+      <class name="GetAccountCustomerNameLookup.Status200Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetAccountCustomerNameLookup.Status200Validation@598067a5]" name="Test" duration-ms="1666" started-at="2019-05-14T14:33:14Z" finished-at="2019-05-14T14:33:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetAccountCustomerNameLookup.Status200Validation -->
+      <class name="GetAccountByCustomerName.Status200Validation">
+        <test-method status="FAIL" signature="Test()[pri:0, instance:GetAccountByCustomerName.Status200Validation@4f7d0008]" name="Test" duration-ms="1475" started-at="2019-05-14T14:33:09Z" finished-at="2019-05-14T14:33:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at GetAccountByCustomerName.Status200Validation.Test(Status200Validation.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetAccountByCustomerName.Status200Validation -->
+      <class name="GetAccountByEmail.Status200Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetAccountByEmail.Status200Validation@402a079c]" name="Test" duration-ms="1319" started-at="2019-05-14T14:33:12Z" finished-at="2019-05-14T14:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetAccountByEmail.Status200Validation -->
+      <class name="GetCustomerAccountStatement.Status200Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetCustomerAccountStatement.Status200Validation@5f341870]" name="Test" duration-ms="1496" started-at="2019-05-14T14:33:29Z" finished-at="2019-05-14T14:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetCustomerAccountStatement.Status200Validation -->
+      <class name="GetAccountCustomerNameLookup.Status400Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetAccountCustomerNameLookup.Status400Validation@6500df86]" name="Test" duration-ms="1362" started-at="2019-05-14T14:33:16Z" finished-at="2019-05-14T14:33:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetAccountCustomerNameLookup.Status400Validation -->
+      <class name="GetAccountByAccountNumber.Status200Validation">
+        <test-method status="PASS" signature="Test()[pri:0, instance:GetAccountByAccountNumber.Status200Validation@553f17c]" name="Test" duration-ms="1711" started-at="2019-05-14T14:33:01Z" finished-at="2019-05-14T14:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- GetAccountByAccountNumber.Status200Validation -->
+    </test> <!-- Account Management Tests -->
+  </suite> <!-- Account Management Suite -->
+</testng-results>

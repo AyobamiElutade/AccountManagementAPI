@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Account Management Suite">
+  <test name="Account Management Tests">
+    <classes>
+      <class name="GetAccountByAccountNumber.Status404Validation"/>
+      <class name="GetAccountByAccountNumber.Status200Validation"/>
+      <class name="GetAccountByAccountNumber.Status400Validation"/>
+      <class name="GetAccountByBvn.Status200Validation"/>
+      <class name="GetAccountByBvn.Status400Validation"/>
+      <class name="GetAccountByBvn.Status404Validation"/>
+      <class name="GetAccountByCustomerName.Status200Validation"/>
+      <class name="GetAccountByCustomerName.Status404Validation"/>
+      <class name="GetAccountByEmail.Status200Validation"/>
+      <class name="GetAccountByEmail.Status404Validation"/>
+      <class name="GetAccountCustomerNameLookup.Status200Validation"/>
+      <class name="GetAccountCustomerNameLookup.Status400Validation"/>
+      <class name="GetAccountCustomerNameLookup.Status404Validation"/>
+      <class name="GetCustomerAccountBalance.Status200Validation"/>
+       <class name="GetCustomerAccountBalance.Status400Validation"/>
+       <class name="GetCustomerAccountBalance.Status404Validation"/>
+       <class name="GetCustomerAccountByCifID.Status200Validation"/>
+        <class name="GetCustomerAccountByCifID.Status404Validation"/>
+        <class name="GetCustomerAccountByPhoneNumber.Status200Validation"/>
+        <class name="GetCustomerAccountByPhoneNumber.Status404Validation"/>
+        <class name="GetCustomerAccountStatement.Status200Validation"/>
+        <class name="GetCustomerAccountStatement.Status404Validation"/>
+      <class name="GetCustomerImage.Status200Validation"/>
+      <class name="GetCustomerImage.Status400Validation"/>
+      <class name="GetCustomerImage.Status404Validation"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
